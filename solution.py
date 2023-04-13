@@ -9,7 +9,7 @@ def solution(x: np.array) -> bool: # Одна или две выборке на 
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
     res = False
-    s = np.mean(x)
+    s = np.median(x)
     if s >= 500:
         res = True
     else:
